@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+//package grpc_test;
+
+
+service TransmitData {
+  rpc DoTransmit(DataRequest) returns (DataResponse){}
+}
+message DataRequest {
+  string data = 1;
+}
+message DataResponse{
+  string result=1;
+}
