@@ -9,7 +9,7 @@ import numpy as np
 
 _HOST = 'localhost'
 _PORT = '8008'
-_PATH = 'image/01.jpg'
+_PATH = 'image/04.jpg'
 
 def run():
     conn = grpc.insecure_channel(_HOST + ':' + _PORT)
